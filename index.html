@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>TITLE</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam vero nulla alias ipsam.</p>
+
+    <form action="#" method="">
+
+        <label for="nombre" class="text">Name</label>
+        <input type="text" id="nombre" name="name" placeholder="Escribe tu nombre">
+
+        <label for="correo" class="text">Email</label>
+        <input type="email" id="correo" name="email" placeholder="Ingresa tu email">
+
+        <label for="edad" class="text">Age (optional)</label>
+        <input type="number" id="edad" name="age" placeholder="Ingresa tu edad">
+
+        <label for="opciones" class="text">Which option best describes you current role</label>
+        <select id="opciones">
+            <option id="opcion1">Selecciona una opcion</option>
+            <option id="opcion2">Other</option>
+        </select>
+
+        <label for="recomendar1" class="text">Would you recommend freeCodeCamp to a friend?</label>
+        <div>
+            <input type="radio" id="recomendar1" name="recommend">
+            <label for="recomendar1">Definitily</label>
+        </div>
+        <div>
+            <input type="radio" id="recomendar2" name="recommend">
+            <label for="recomendar2">Maybe</label>
+        </div>
+        <div>
+            <input type="radio" id="recomendar3" name="recommend">
+            <label for="recomendar3">Not sure</label>
+        </div>
+
+        <label for="opciones2" class="text">What is your favorite feature of freeCodeCamp?</label>
+        <select id="opciones2">
+            <option id="opcion2_1">Selecciona una opcion</option>
+            <option id="opcion2_2">Other</option>
+        </select>
+
+        <label for="cajaChekeo1" class="text">What would you like to see improved? (check all that apply)</label>
+        <div>
+            <input type="checkbox" id="cajaChekeo1" name="ChekeoU">
+            <label for="cajaChekeo1">Front-end Projects</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cajaChekeo2" name="ChekeoU">
+            <label for="cajaChekeo2">Back-end Projects</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cajaChekeo3" name="ChekeoU">
+            <label for="cajaChekeo3">Data Visualizaction</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cajaChekeo4" name="ChekeoU">
+            <label for="cajaChekeo4">Challenges</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cajaChekeo5" name="ChekeoU">
+            <label for="cajaChekeo5">Open Source Community</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cajaChekeo6" name="ChekeoU">
+            <label for="cajaChekeo6">Gitter help rooms</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cajaChekeo7" name="ChekeoU">
+            <label for="cajaChekeo7">Videos</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cajaChekeo8" name="ChekeoU">
+            <label for="cajaChekeo8">City Meetups</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cajaChekeo9" name="ChekeoU">
+            <label for="cajaChekeo9">Wiki</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cajaChekeo10" name="ChekeoU">
+            <label for="cajaChekeo10">Forum</label>
+        </div>
+        <div>
+            <input type="checkbox" id="cajaChekeo11" name="ChekeoU">
+            <label for="cajaChekeo11">Additional Courses</label>
+        </div>
+
+        <label for="cajaTexto" class="text">Any comments or suggestions?</label>
+        <textarea id="cajaTexto" name="TextoU" placeholder="Enter your comment here..."></textarea><br>
+
+        <input type="button" value="Submit" class = "boton">
+    </form><br><br>
+</body>
+</html>
